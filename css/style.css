@@ -65,13 +65,12 @@ p {
   display:flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
   width: 100vw;
 }
 
 .testimonial {
   width: 340px;
-  margin: auto;
   background: var(--testimonial-white);
   border: 1px solid #d2d6db;
   border-radius: 10px;
